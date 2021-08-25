@@ -3,8 +3,10 @@
 # individual paragraphs by editing the "time.sleep(YOUR_TIME)" element (I have it set to 3 seconds
 # right now). Then press start and quickly head over to the place, you want to spam in.
 
-print("Starting...")
+
 import pyautogui, time
+
+print("Starting...")
 time.sleep(3)
 f = open("text", 'r')
 for word in f:
